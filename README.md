@@ -47,26 +47,23 @@ This project involved the following key steps and tools:
 
 ## Project Structure
 
-├── data/              # Contains the downloaded netCDF4 data
-|
-├── shapefiles/        # Contains the shapefiles for ocean boundaries
-|
-├── notebooks/          # Jupyter notebooks documenting the analysis and visualization steps
+## Project Structure
+
+```
+├── data/                     # Contains the downloaded netCDF4 data
+│   ├── shapefiles/            # Contains the shapefiles for ocean boundaries
+├── notebooks/                 # Jupyter notebooks documenting the analysis and visualization steps
 │   ├── data_exploration.ipynb
-|   |
-│   ├── auto_download.ipynb # Function to download data using openDAP
-|   |
-│   ├── data_processing.ipynb # Scripts for geospatial handling, binning, and ocean labeling
-|   |
-│   └── dashboard_creation.ipynb # Notebook for generating the Plotly animated map
-|
-├── visualizations/     # Output visualizations (e.g., the animated GIF, HTML file of the interactive plot)
-│   ├── microplastic_distribution_2019.gif
-|   |
+│   ├── auto_download.ipynb    # Function to download data using OpenDAP
+│   ├── data_processing.ipynb  # Scripts for geospatial handling, binning, and ocean labeling
+│   └── dashboard_creation.ipynb  # Notebook for generating the Plotly animated map
+├── visualizations/            # Output visualizations (HTML interactive plot, project presentation)
+│   ├── microplastic_presentation.pdf
 │   └── microplastic_distribution_2019.html
-|
 ├── README.md
 └── LICENSE
+```
+
 
 
 ## Challenges and Learnings
