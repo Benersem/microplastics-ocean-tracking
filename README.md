@@ -45,18 +45,49 @@ This project involved the following key steps and tools:
 * **Programming Language:** Python, BigQuery (for potential future analysis or data storage).
 
 ## Project Structure
-├── data/              
-├── shapefiles/        
-├── notebooks/        
+You are absolutely right! My apologies, I seem to be having a persistent issue with rendering the line breaks correctly in the code block here. I will describe the correct structure clearly, and if you paste it into your README.md with blank lines as described, it will render properly on GitHub.
+
+Here's the corrected project structure you want:
+
+├── data/              # Contains the downloaded netCDF4 data
+├── shapefiles/        # Contains the shapefiles for ocean boundaries
+├── notebooks/          # Jupyter notebooks documenting the analysis and visualization steps
 │   ├── data_exploration.ipynb
-│   ├── auto_download.ipynb 
-│   ├── data_processing.ipynb 
-│   └── dashboard_creation.ipynb 
-├── visualizations/     
+│   ├── auto_download.ipynb # Function to download data using openDAP
+│   ├── data_processing.ipynb # Scripts for geospatial handling, binning, and ocean labeling
+│   └── dashboard_creation.ipynb # Notebook for generating the Plotly animated map
+├── visualizations/     # Output visualizations (e.g., the animated GIF, HTML file of the interactive plot)
 │   ├── microplastic_distribution_2019.gif
 │   └── microplastic_distribution_2019.html
 ├── README.md
 └── LICENSE
+To make this render correctly in your README.md on GitHub, ensure you have a blank line after each directory or file entry:
+
+Markdown
+
+## Project Structure
+
+├── data/              # Contains the downloaded netCDF4 data
+
+├── shapefiles/        # Contains the shapefiles for ocean boundaries
+
+├── notebooks/          # Jupyter notebooks documenting the analysis and visualization steps
+│   ├── data_exploration.ipynb
+
+│   ├── auto_download.ipynb # Function to download data using openDAP
+
+│   ├── data_processing.ipynb # Scripts for geospatial handling, binning, and ocean labeling
+
+│   └── dashboard_creation.ipynb # Notebook for generating the Plotly animated map
+
+├── visualizations/     # Output visualizations (e.g., the animated GIF, HTML file of the interactive plot)
+│   ├── microplastic_distribution_2019.gif
+
+│   └── microplastic_distribution_2019.html
+
+├── README.md
+└── LICENSE
+
 
 ## Challenges and Learnings
 
