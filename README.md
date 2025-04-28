@@ -40,6 +40,8 @@ This project involved the following key steps and tools:
     * **Tool:** Plotly was chosen as the visualization library due to its ability to handle large geospatial datasets and create interactive and animated visualizations, overcoming limitations encountered with Looker Studio and Tableau.
     * **Animated Heatmap:** An animated heatmap was generated to display the daily microplastic concentration across the oceans for the entire year of 2019. The animation frames are driven by the date, allowing for the observation of temporal changes and the identification of hotspots.
     * **Color Styling:** Different color scales were explored to effectively represent the microplastic concentration levels.
+      ![newplot (1)](https://github.com/user-attachments/assets/a290a398-0b1f-4bcc-9280-7dc5cea169a9)
+
 * **Programming Language:** Python, BigQuery (for potential future analysis or data storage).
 
 ## Project Structure
