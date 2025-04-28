@@ -45,25 +45,16 @@ This project involved the following key steps and tools:
 * **Programming Language:** Python, BigQuery (for potential future analysis or data storage).
 
 ## Project Structure
-├── data/
-│   ├── raw/             
-│
-│   └── processed/        
-│
-├── notebooks/          
+├── data/              
+├── shapefiles/        
+├── notebooks/        
 │   ├── data_exploration.ipynb
-│
 │   ├── auto_download.ipynb 
-│
 │   ├── data_processing.ipynb 
-│
 │   └── dashboard_creation.ipynb 
-│
-├── visualizations/    
+├── visualizations/     
 │   ├── microplastic_distribution_2019.gif
-│
 │   └── microplastic_distribution_2019.html
-│
 ├── README.md
 └── LICENSE
 
